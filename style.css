@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: aliceblue;
+    background-color: white;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: antiquewhite;
+    background-color: rgb(20, 23, 51);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,6 +19,7 @@ body {
 
 h1 {
     text-align: center;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -30,26 +31,27 @@ h1 {
 #todo-input {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #e6dcdc;
     border-radius: 4px;
     margin-right: 10px;
 }
 
 button {
     padding: 10px 15px;
-    background-color: aqua;
-    color: beige;
+    background-color: rgb(255, 115, 0);
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: cadetblue;
+    background-color: gray;
 }
 
 #todo-list {
     list-style-type: none;
+    color: white;
     padding: 0;
 }
 
@@ -58,7 +60,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid white;
 }
 
 .todo-item:last-child {
@@ -71,14 +73,17 @@ button:hover {
 }
 
 .todo-item button {
-    background-color: brown;
+    background-color: lightblue;
     border: none;
-    color: beige;
-    padding: 5px 10px;
-    border-radius: 4px;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 5px;
     cursor: pointer;
+    margin-right: 8px;
+    width: 50px; 
+    height: 25px;
 }
 
 .todo-item button:hover {
-    background-color: crimson;
+    background-color: rgb(73, 90, 95);
 }
